@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gxtest</servlet-name>
+    <servlet-class>com.hna.wjt.test.gxtest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchLowFareTripCL</servlet-name>
+    <servlet-class>com.hna.wjt.cl.SearchLowFareTripCL</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>we</servlet-name>
+    <servlet-class>com.hna.wjt.cl.we</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>connectionTest</servlet-name>
+    <servlet-class>com.hna.wjt.test.connectionTest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CalculateTrip</servlet-name>
+    <servlet-class>com.hna.wjt.cl.CalculateTrip</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerifyTrips</servlet-name>
+    <servlet-class>com.hna.wjt.cl.VerifyTrips</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateReservation</servlet-name>
+    <servlet-class>com.hna.wjt.cl.CreateReservation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DocumentReservation</servlet-name>
+    <servlet-class>com.hna.wjt.cl.DocumentReservation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Getreservation</servlet-name>
+    <servlet-class>com.hna.wjt.cl.Getreservation</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>gxtest</servlet-name>
+    <url-pattern>/gxtest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchLowFareTripCL</servlet-name>
+    <url-pattern>/SearchLowFareTripCL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>we</servlet-name>
+    <url-pattern>/we</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>connectionTest</servlet-name>
+    <url-pattern>/connectionTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CalculateTrip</servlet-name>
+    <url-pattern>/CalculateTrip</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyTrips</servlet-name>
+    <url-pattern>/VerifyTrips</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateReservation</servlet-name>
+    <url-pattern>/CreateReservation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DocumentReservation</servlet-name>
+    <url-pattern>/DocumentReservation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Getreservation</servlet-name>
+    <url-pattern>/Getreservation</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
